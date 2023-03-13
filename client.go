@@ -173,6 +173,7 @@ func (c *Client) GetTorrents() ([]*Torrent, error) {
 		},
 		Method: "torrent-get",
 	}
+	fmt.Println("YOMAMA")
 
 	r := &Response{Arguments: &Torrents{}}
 
